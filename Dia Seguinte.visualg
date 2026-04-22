@@ -1,0 +1,30 @@
+algoritmo "proximo_dia"
+
+var
+   dia: caractere
+
+inicio
+
+   enquanto dia <> "domingo" e dia <> "segunda-feira" e dia <> "terça-feira" e dia <> "quarta-feira" e dia <> "quinta-feira" e dia <> "sexta-feira" e dia <> "sábado" faca
+      escreva("Digite o dia da semana: ")
+      leia(dia)
+   fimenquanto
+
+   escolha dia
+      caso "domingo"
+         escreva("Segunda-feira")
+      caso "segunda-feira"
+         escreva("Terça-feira")
+      caso "terça-feira"
+         escreva("Quarta-feira")
+      caso "quarta-feira"
+         escreva("Quinta-feira")
+      caso "quinta-feira"
+         escreva("Sexta-feira")
+      caso "sexta-feira"
+         escreva("Sábado")
+      caso "sábado"
+         escreva("Domingo")
+   fimescolha
+
+fimalgoritmo
